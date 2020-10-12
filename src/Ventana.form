@@ -147,6 +147,12 @@
     </Container>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Malayalam Sangam MN" size="15" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Nombre"/>
       </Properties>
       <Constraints>
@@ -164,6 +170,12 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Malayalam Sangam MN" size="15" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Artista:"/>
       </Properties>
       <Constraints>
@@ -181,6 +193,12 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Malayalam Sangam MN" size="15" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Genero:"/>
       </Properties>
       <Constraints>
@@ -201,6 +219,12 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Malayalam Sangam MN" size="15" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Tipo:"/>
       </Properties>
       <Constraints>
@@ -233,6 +257,12 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Malayalam Sangam MN" size="15" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Enlace Web:"/>
       </Properties>
       <Constraints>
@@ -313,6 +343,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnAgregar">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="13" style="3"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Agregar canci&#xf3;n"/>
       </Properties>
       <Events>
@@ -326,6 +359,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnWeb">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="13" style="3"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Ir a la web"/>
       </Properties>
       <Events>

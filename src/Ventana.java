@@ -100,14 +100,20 @@ public class Ventana extends javax.swing.JFrame {
 
         getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 159, 920, 530));
 
+        jLabel1.setBackground(new java.awt.Color(204, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Malayalam Sangam MN", 1, 15)); // NOI18N
         jLabel1.setText("Nombre");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 24, -1, -1));
         getContentPane().add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 19, 145, -1));
 
+        jLabel2.setBackground(new java.awt.Color(204, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Malayalam Sangam MN", 1, 15)); // NOI18N
         jLabel2.setText("Artista:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(273, 24, -1, -1));
         getContentPane().add(txtArtista, new org.netbeans.lib.awtextra.AbsoluteConstraints(339, 19, 125, -1));
 
+        jLabel3.setBackground(new java.awt.Color(204, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Malayalam Sangam MN", 1, 15)); // NOI18N
         jLabel3.setText("Genero:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(523, 24, -1, -1));
 
@@ -118,6 +124,8 @@ public class Ventana extends javax.swing.JFrame {
         });
         getContentPane().add(txtGenero, new org.netbeans.lib.awtextra.AbsoluteConstraints(589, 19, 126, -1));
 
+        jLabel4.setBackground(new java.awt.Color(204, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Malayalam Sangam MN", 1, 15)); // NOI18N
         jLabel4.setText("Tipo:");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 68, -1, -1));
 
@@ -125,6 +133,8 @@ public class Ventana extends javax.swing.JFrame {
         cmbTipo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona un tipo...", "Canción/Audio", "Video Musical" }));
         getContentPane().add(cmbTipo, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, -1, -1));
 
+        jLabel5.setBackground(new java.awt.Color(204, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Malayalam Sangam MN", 1, 15)); // NOI18N
         jLabel5.setText("Enlace Web:");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(273, 68, -1, -1));
         getContentPane().add(txtEnlace, new org.netbeans.lib.awtextra.AbsoluteConstraints(365, 63, 350, -1));
@@ -147,6 +157,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8-música-16.png"))); // NOI18N
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, -1, -1));
 
+        btnAgregar.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         btnAgregar.setText("Agregar canción");
         btnAgregar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -155,6 +166,7 @@ public class Ventana extends javax.swing.JFrame {
         });
         getContentPane().add(btnAgregar, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 110, -1, -1));
 
+        btnWeb.setFont(new java.awt.Font("Lucida Grande", 3, 13)); // NOI18N
         btnWeb.setText("Ir a la web");
         btnWeb.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
